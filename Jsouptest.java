@@ -14,7 +14,7 @@ public class Jsouptest {
 	ArrayList<Element> elements = doc.getElementsByClass("dealbox");
 	for (int i = 0; i<elements.size(); i++){
 		System.out.println(elements.get(i).getElementsByTag("strong").get(0).text());
-	}
+	} 
 	}
 
 }
